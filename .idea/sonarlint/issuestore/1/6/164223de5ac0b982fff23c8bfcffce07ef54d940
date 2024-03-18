@@ -1,0 +1,13 @@
+
+S
+java:S1854"=Remove this useless assignment to local variable "tempArray".(ýñï†
+E
+java:S1197"*Move the array designators [] to the type.(¾›“úþÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(ýñï†
+D
+java:S1481".Remove this unused "tempArray" local variable.(ýñï†
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±¾üÎÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íÿ‹¬ÿÿÿÿÿ8ÏûÏðÞ1
