@@ -24,5 +24,30 @@ public class FindSecondLargestNumber {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        Integer []numberArray={23,57,12,90,10,4};
+        Arrays.sort(numberArray);
+        System.out.println(Arrays.asList(numberArray));
+        Collections.reverse(Arrays.asList(numberArray));
+       int i= Arrays.asList(numberArray).stream().skip(1).findFirst().get();
+       System.out.println(i);
+
+
+
+
+
+
+
     }
 }

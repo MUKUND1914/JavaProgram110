@@ -12,6 +12,16 @@ public class LargestNumber {
         return 0;
     }
 
+    public static int largestNumberAlt(int number,int digit){
+        char c =Integer.toString(digit).charAt(0);
+        for(int i=number;i>0;i--){
+            if(Integer.toString(i).indexOf(c)==-1){
+                return i;
+            }
+        }
+        return 0;
+    }
+
     public static void main(String[] args) {
         // How to find largest number less than a given number and without a given digit?
         int number=123;

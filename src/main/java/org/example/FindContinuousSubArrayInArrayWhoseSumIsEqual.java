@@ -1,6 +1,6 @@
 package org.example;
 
-public class FindCountinuousSubArrayInArrayWhoseSumIsEqual {
+public class FindContinuousSubArrayInArrayWhoseSumIsEqual {
     public static void main(String[] args) {
 
         // How to find continuous sub array whose sum is equal to given number?
