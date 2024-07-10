@@ -3,6 +3,8 @@ package org.example;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Java8FeatureDateTime {
     public static void main(String[] args) {
@@ -14,6 +16,13 @@ public class Java8FeatureDateTime {
 
         DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd/MM/YYYY");
         System.out.println(dateTimeFormatter.format(dateAndTime));
+
+        String s="(5)";
+        int i=4;
+        Set seen=new HashSet<>();
+        seen.add(s+i);
+
+        System.out.println(seen);
 
     }
 }
